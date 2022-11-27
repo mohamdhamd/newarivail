@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+nav {
+    background-color: antiquewhite;
+    font-size: large;
+    position: fixed;
+
+}
+
+.nav {
+    margin: 100px;
+    font-size: 2em;
+}
+
+.contact {
+    padding-left: 800px;
+    padding-right: 120px;
+}
+
+.header {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    font-size: 2em;
+    margin-left: 250px;
+
+
+}
+
+.back {
+    background-image: url(jeans.jpg);
+    /* position: relative; */
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 300px;
+
+}
+
+.ground {
+    color: aliceblue;
+    padding: 15px;
+    margin: 15px;
+}
+
+.text-back1 {
+    font-size: 4em;
+}
+
+.text-back2 {
+    font-size: 2em;
+}
+
+.shop-button {
+    background-color: black;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 15%;
+    margin: 40px 0Px 0px 70px;
+
+}
+
+.shop-button:hover {
+    background-color: rgb(33, 42, 83);
+    transition: 0.5s;
+}
+
+aside {
+    position: fixed;
+    top: 150px;
+    left: 50px;
+
+}
+
+.ads {
+    margin-top: 30px;
+}
+
+.unback {
+    margin-left: 300px;
+
+}
+
+.items {
+    font-size: 1.5em;
+}
+
+.main {
+    width: 90%;
+}
+
+.table {
+    width: 75%;
+}
+
+.itemimg {
+    display: inline;
+    /* width: 75px;
+    height: 75px; */
+}
+
+.img {
+    width: 200px;
+    margin-left: 47px;
+    margin-bottom: 60px;
+
+    justify-content: space-between;
+}
+
+.p {
+    display: inline;
+}
+
+.divimg {
+    display: inline;
+    position: relative;
+}
+
+.divimge {
+
+    background-color: rgba(240, 248, 255, 0.237);
+    color: rgb(109, 109, 134);
+    font-size: 1.3em;
+    position: absolute;
+    top: -40px;
+    left: 25%;
+    overflow: hidden;
+
+}
+.buynow{
+    background-color: rgba(244, 244, 244, 0.692);
+    color: aliceblue;
+
+    position: absolute;
+    left: 30%;
+    top: -130px;
+ 
+    
+}
+.divimg:hover .buynow{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    left: 30%;
+    top: -130px;
+    
+}
+.all{
+    width: 75%;
+}
+.sub{
+    margin-right: 100px;
+    margin-left: 350px;
+    width: 70%;
+    height: 300px;
+    background-color: black;
+}
+.Subscribe{
+    font-size: 3em;
+    color: aliceblue;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.wmail{
+    color: aliceblue;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#email{
+    width: 80%;
+    height: 40px;
+   margin-left: 25px;
+}
+.sub-button{
+    background-color: red;
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.main-q{
+    background-color: rgb(208, 207, 222);
+    width: 70%;
+    height: 500px;
+    margin-left: 350px;
+}
+.q1{
+
+    font-size: 30px;
+    padding: 60px 0px 30px 50px;
+    
+}
+.q2{
+    padding-left: 50px;
+}
+.q3{
+    width: 30%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+q{
+
+    margin-left: 300px;
+}
+.footerm{
+    width: 63%;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1em;
+    margin-left: 350px;
+    text-align: center;
+    padding: 20px 0px 0px 30px ;
+}
+.footer{
+    color: aliceblue;
+    font-size: 1em;
+    margin-left: 150px;
+    text-align: center;
+    padding: 5px 0px 0px 0px ;
+}
